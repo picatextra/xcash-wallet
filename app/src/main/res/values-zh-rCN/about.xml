@@ -25,8 +25,8 @@
         <p>如果你使用外汇的功能(可选用)，X-Cash 將通过 coinmarketcap.com 的公开
         API 抓取当前汇率。如果你想了解自己被收集的信息如何被使用，请访问 https://coinmarketcap.com/privacy
         查看他们的隐私政策。</p>
-        <p>如果你想使用本 App 支付款项至比特币地址，您将使用 XMR.TO 所提供的服务。X-Cash
-        将发送比特币的目标地址以及金额至 XMR.TO，您的 IP 在此时也可能会被收集。详情请至 https://xmr.to/
+        <p>如果你想使用本 App 支付款项至比特币地址，您将使用 XCASH.TO 所提供的服务。X-Cash
+        将发送比特币的目标地址以及金额至 XCASH.TO，您的 IP 在此时也可能会被收集。详情请至 https://XCASH.to/
         查看他们的隐私政策。</p>
         <h2>应用程序权限</h2>
         <ul>

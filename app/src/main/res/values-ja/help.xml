@@ -239,13 +239,13 @@
         コピーするか、QRコードから読み取るか、直接入力することができます。
         間違ったアドレスにコインが送金されないように、
         このアドレスは確実に間違いがないことを確認してください。</p>
-        <p>In addition to using an XMR address, you can also use
+        <p>In addition to using an XCASH address, you can also use
         <ul>
-            <li>an OpenAlias for XMR or BTC</li>
+            <li>an OpenAlias for XCASH or BTC</li>
             <li>a BTC address</li>
             <li>a bitcoin: URI (including BIP70 like bitpay)</li>
         </u>
-        Please note, that sending BTC is processed through the XMR.TO service (see https://xmr.to
+        Please note, that sending BTC is processed through the XCASH.TO service (see https://XCASH.to
         for details). See the section on sending BTC below.</p>
         <h2>ペイメントID(Payment ID)</h2>
         <p>あなたは2者間でモネロを送金した理由を特定するために
@@ -254,78 +254,78 @@
         例えば、ペイメントIDを使うことで販売者が
         トランザクションと商品を紐付けることができます。</p>
         <h1>BTCの送金</h1>
-        <h2>XMR.TO</h2>
-        <p>XMR.TO はモネロからビットコインに換金する交換所として
+        <h2>XCASH.TO</h2>
+        <p>XCASH.TO はモネロからビットコインに換金する交換所として
         機能するサードパーティ製のサービスです。私達は
-        XMR.TO のAPIを使うことでビットコインの支払い機能を
+        XCASH.TO のAPIを使うことでビットコインの支払い機能を
         X-Cashに組み込んでいます。
-        https://xmr.to を確認して、これがあなたが使いたい
+        https://XCASH.to を確認して、これがあなたが使いたい
         機能であるかどうかをご自身で判断してください。
-        X-Cashの開発チームは XMR.TO とは無関係であり、
-        XMR.TOのサービスに関してあなたをサポートすることはできません。</p>
-        <h2>XMR.TO の交換レート<h2>
-        <p>「数量」(Amount)の画面では XMR.TO の現在の
+        X-Cashの開発チームは XCASH.TO とは無関係であり、
+        XCASH.TOのサービスに関してあなたをサポートすることはできません。</p>
+        <h2>XCASH.TO の交換レート<h2>
+        <p>「数量」(Amount)の画面では XCASH.TO の現在の
         パラメータが表示されます。これらは現在の交換レートに加えて
         送金可能なBTCの上限・下限を含みます。この交換レートは
         現時点では保証されたものではないことに注意してください。
         また、XMRの送金が承認されるのを待つことなく
         直ちにビットコインと交換できる数量も表示されるでしょう
-        （詳細は XMR.TO のFAQをご覧ください）。また、XMR.TO は
+        （詳細は XCASH.TO のFAQをご覧ください）。また、XCASH.TO は
         余分な手数料を取ることはしません。かっこいいと思いませんか？</p>
-        <h2>XMR.TO の注文<h2>
-        <p>「確認」(Confirm)の画面で、あなたは実際の XMR.TO 
+        <h2>XCASH.TO の注文<h2>
+        <p>「確認」(Confirm)の画面で、あなたは実際の XCASH.TO
         の注文を見ることになります。この注文は制限時間内でのみ有効です。
         あなたは送金(Spend)ボタンにカウントダウンが
         表示されていることに気づくかもしれません。
         交換レートは前の画面で表示されたものとは異なる可能性が有ります。</p>
-        <h2>XMR.TO のシークレットキー<h2>
+        <h2>XCASH.TO のシークレットキー<h2>
         <p>X-Cash はBTCとXMRのうち、XMRの方だけを取り扱います。
-        XMR.TO のシークレットキーは、 XMR.TO のホームページにて
+        XCASH.TO のシークレットキーは、 XCASH.TO のホームページにて
         BTCの方の注文を追跡するのに使用できます。</p>
         <p>このシークレットキーは取引が始まってから
         24時間のみ有効であることに注意してください!</p>
-        <h2>XMR.TO カウントダウン!</h2>
+        <h2>XCASH.TO カウントダウン!</h2>
         <p>一旦カウントダウンがゼロに到達すると、
         あなたは一度前のステップに戻って「確認」(Confirm)の画面に戻って、
-        もう一度 XMR.TO から新しい見積もりを取得する必要があります。</p>
+        もう一度 XCASH.TO から新しい見積もりを取得する必要があります。</p>
     ]]></string>
 
     <string name="help_xmrto"><![CDATA[
         <h1>BTCの送金</h1>
-        <h2>XMR.TO</h2>
-        <p>XMR.TO はモネロからビットコインに換金する交換所として
+        <h2>XCASH.TO</h2>
+        <p>XCASH.TO はモネロからビットコインに換金する交換所として
         機能するサードパーティ製のサービスです。私達は
-        XMR.TO のAPIを使うことでビットコインの支払い機能を
+        XCASH.TO のAPIを使うことでビットコインの支払い機能を
         X-Cashに組み込んでいます。
-        https://xmr.to を確認して、これがあなたが使いたい
+        https://XCASH.to を確認して、これがあなたが使いたい
         機能であるかどうかをご自身で判断してください。
-        X-Cashの開発チームは XMR.TO とは無関係であり、
-        XMR.TOのサービスに関してあなたをサポートすることはできません。</p>
-        <h2>XMR.TO の交換レート<h2>
-        <p>「数量」(Amount)の画面では XMR.TO の現在の
+        X-Cashの開発チームは XCASH.TO とは無関係であり、
+        XCASH.TOのサービスに関してあなたをサポートすることはできません。</p>
+        <h2>XCASH.TO の交換レート<h2>
+        <p>「数量」(Amount)の画面では XCASH.TO の現在の
         パラメータが表示されます。これらは現在の交換レートに加えて
         送金可能なBTCの上限・下限を含みます。この交換レートは
         現時点では保証されたものではないことに注意してください。
         また、XMRの送金が承認されるのを待つことなく
         直ちにビットコインと交換できる数量も表示されるでしょう
-        （詳細は XMR.TO のFAQをご覧ください）。また、XMR.TO は
+        （詳細は XCASH.TO のFAQをご覧ください）。また、XCASH.TO は
         余分な手数料を取ることはしません。かっこいいと思いませんか？</p>
-        <h2>XMR.TO の注文<h2>
-        <p>「確認」(Confirm)の画面で、あなたは実際の XMR.TO 
+        <h2>XCASH.TO の注文<h2>
+        <p>「確認」(Confirm)の画面で、あなたは実際の XCASH.TO
         の注文を見ることになります。この注文は制限時間内でのみ有効です。
         あなたは送金(Spend)ボタンにカウントダウンが
         表示されていることに気づくかもしれません。
         交換レートは前の画面で表示されたものとは異なる可能性が有ります。</p>
-        <h2>XMR.TO のシークレットキー<h2>
+        <h2>XCASH.TO のシークレットキー<h2>
         <p>X-Cash はBTCとXMRのうち、XMRの方だけを取り扱います。
-        XMR.TO のシークレットキーは、 XMR.TO のホームページにて
+        XCASH.TO のシークレットキーは、 XCASH.TO のホームページにて
         BTCの方の注文を追跡するのに使用できます。</p>
         <p>このシークレットキーは取引が始まってから
         24時間のみ有効であることに注意してください!</p>
-        <h2>XMR.TO カウントダウン!</h2>
+        <h2>XCASH.TO カウントダウン!</h2>
         <p>一旦カウントダウンがゼロに到達すると、
         あなたは一度前のステップに戻って「確認」(Confirm)の画面に戻って、
-        もう一度 XMR.TO から新しい見積もりを取得する必要があります。</p>
+        もう一度 XCASH.TO から新しい見積もりを取得する必要があります。</p>
     ]]></string>
 
     <string name="help_wallet"><![CDATA[

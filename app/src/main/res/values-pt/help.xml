@@ -141,74 +141,74 @@
         <p> Este é o endereço público da carteira para a qual vais enviar Moneroj, podes copiar esta
         informação da área de transferência, capturara um código QR, ou introduzir manualmente. Confirma
         atentamente que não estás a enviar para o endereço errado.</p>
-        <p>In addition to using an XMR address, you can also use
+        <p>In addition to using an XCASH address, you can also use
         <ul>
-            <li>an OpenAlias for XMR or BTC</li>
+            <li>an OpenAlias for XCASH or BTC</li>
             <li>a BTC address</li>
             <li>a bitcoin: URI (including BIP70 like bitpay)</li>
         </u>
-        Please note, that sending BTC is processed through the XMR.TO service (see https://xmr.to
+        Please note, that sending BTC is processed through the XCASH.TO service (see https://XCASH.to
         for details). See the section on sending BTC below.</p>
         <h2>ID do Pagamento</h2>
         <p>Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados Moneroj.
         Isto é opcional e privado. Por exemplo, isto permite que um negócio identifique que item
         é que uma determinada transacção está a pagar.</p>
         <h1>Enviar BTC</h1>
-        <h2>XMR.TO</h2>
-        <p>XMR.TO é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
-        Nós utilizamos a API do XMR.TO para integrar pagamentos de Bitcoin no X-Cash. Por favor
-        vai a https://xmr.to e decide por ti próprio se queres utilizar este serviço. A equipa
-        do X-Cash não está associada com o XMR.TO e não te pode ajudar com este serviço.</p>
-        <h2>Taxa de câmbio XMR.TO<h2>
-        <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço XMR.TO. Estes
+        <h2>XCASH.TO</h2>
+        <p>XCASH.TO é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
+        Nós utilizamos a API do XCASH.TO para integrar pagamentos de Bitcoin no X-Cash. Por favor
+        vai a https://XCASH.to e decide por ti próprio se queres utilizar este serviço. A equipa
+        do X-Cash não está associada com o XCASH.TO e não te pode ajudar com este serviço.</p>
+        <h2>Taxa de câmbio XCASH.TO<h2>
+        <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço XCASH.TO. Estes
         incluem a taxa de câmbio assim como os limites superiores e inferiores em BTC. Nota que
         esta taxa ainda não é garantido. Também vais ver a quantidade máxima de BTC para que
-        a transação seja executada instantaneamente sem ter que esperar pelas confirmações XMR
-        (ver o FAQ do XMR.TO para mais detalhes). Nota que o XMR.TO não cobra nenhumas taxas
+        a transação seja executada instantaneamente sem ter que esperar pelas confirmações XCASH
+        (ver o FAQ do XCASH.TO para mais detalhes). Nota que o XCASH.TO não cobra nenhumas taxas
         extra - isto não é brutal?</p>
-        <h2>Pedido XMR.TO<h2>
-        <p>No ecrão de \"Confirmação\", vais ver o pedido actual XMR.TO. Este pedido é válido
+        <h2>Pedido XCASH.TO<h2>
+        <p>No ecrão de \"Confirmação\", vais ver o pedido actual XCASH.TO. Este pedido é válido
         por um período limitado de tempo - podes reparar que exite uma contagem decrescente no
         botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
         nos ecrãs anteriores.</p>
-        <h2>Chave Secreta XMR.TO<h2>
-        <p>Como o X-Cash só controla a parte Monero da transacção, a chave secreta XMR.TO
+        <h2>Chave Secreta XCASH.TO<h2>
+        <p>Como o X-Cash só controla a parte Monero da transacção, a chave secreta XCASH.TO
         pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
-        XMR.TO.</p>
+        XCASH.TO.</p>
         <p>Nota que esta chave secreta só é válida por 24 horas depois de a transacção ter
         iniciado!</p>
-        <h2>Contagem decrescente XMR.TO!</h2>
-        <p>Quando a contagem chega a zero, precisas de obter uma nova taxa de câmbio do XMR.TO
+        <h2>Contagem decrescente XCASH.TO!</h2>
+        <p>Quando a contagem chega a zero, precisas de obter uma nova taxa de câmbio do XCASH.TO
         indo ao passo anterior e depois voltando ao ecrã de \"Confirmar\".</p>
     ]]></string>
 
     <string name="help_xmrto"><![CDATA[
         <h1>Enviar BTC</h1>
-        <h2>XMR.TO</h2>
-        <p>XMR.TO é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
-        Nós utilizamos a API do XMR.TO para integrar pagamentos de Bitcoin no X-Cash. Por favor
-        vai a https://xmr.to e decide por ti próprio se queres utilizar este serviço. A equipa
-        do X-Cash não está associada com o XMR.TO e não te pode ajudar com este serviço.</p>
-        <h2>Taxa de câmbio XMR.TO<h2>
-        <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço XMR.TO. Estes
+        <h2>XCASH.TO</h2>
+        <p>XCASH.TO é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
+        Nós utilizamos a API do XCASH.TO para integrar pagamentos de Bitcoin no X-Cash. Por favor
+        vai a https://XCASH.to e decide por ti próprio se queres utilizar este serviço. A equipa
+        do X-Cash não está associada com o XCASH.TO e não te pode ajudar com este serviço.</p>
+        <h2>Taxa de câmbio XCASH.TO<h2>
+        <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço XCASH.TO. Estes
         incluem a taxa de câmbio assim como os limites superiores e inferiores em BTC. Nota que
         este taxa ainda não é garantido. Também vais ver a quantidade máxima de BTC para que
-        a transação seja executada instantaneamente sem ter que esperar pelas confirmações XMR
-        (ver o FAQ do XMR.TO para mais detalhes). Nota que o XMR.TO não cobra nenhumas taxas
+        a transação seja executada instantaneamente sem ter que esperar pelas confirmações XCASH
+        (ver o FAQ do XCASH.TO para mais detalhes). Nota que o XCASH.TO não cobra nenhumas taxas
         extra - isto não é brutal?</p>
-        <h2>Pedido XMR.TO<h2>
-        <p>No ecrão de \"Confirmação\", vais ver o pedido actual XMR.TO. Este pedido é válido
+        <h2>Pedido XCASH.TO<h2>
+        <p>No ecrão de \"Confirmação\", vais ver o pedido actual XCASH.TO. Este pedido é válido
         por um período limitado de tempo - podes reparar que exite uma contagem decrescente no
         botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
         nos ecrãs anteriores.</p>
-        <h2>Chave Secreta XMR.TO<h2>
-        <p>Como o X-Cash só controla a parte Monero da transacção, a chave secreta XMR.TO
+        <h2>Chave Secreta XCASH.TO<h2>
+        <p>Como o X-Cash só controla a parte Monero da transacção, a chave secreta XCASH.TO
         pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
-        XMR.TO.</p>
+        XCASH.TO.</p>
         <p>Nota que esta chave secreta só é válida por 24 horas depois de a transacção ter
         iniciado!</p>
-        <h2>Contagem decrescente XMR.TO!</h2>
-        <p>Quando a contagem chega a zero, precisas de obter uma nova taxa de câmbio do XMR.TO
+        <h2>Contagem decrescente XCASH.TO!</h2>
+        <p>Quando a contagem chega a zero, precisas de obter uma nova taxa de câmbio do XCASH.TO
         indo ao passo anterior e depois voltando ao ecrã de \"Confirmar\".</p>
     ]]></string>
 

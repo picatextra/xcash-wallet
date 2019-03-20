@@ -35,51 +35,51 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>你输入了Bitcoin地址</b><br/>
-        <i>你将会发送XMR而收款方将会收到BTC(由 <b>XMR.TO</b> 提供转換)</i>
+        <i>你将会发送XMR而收款方将会收到BTC(由 <b>XCASH.TO</b> 提供转換)</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">XMR.TO 订单</string>
+    <string name="info_send_xmrto_success_order_label">XCASH.TO 订单</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">等待确认中</string>
     <string name="info_send_xmrto_unpaid">等待付款中</string>
-    <string name="info_send_xmrto_error">XMR.TO 发生错误(%1$s)</string>
+    <string name="info_send_xmrto_error">XCASH.TO 发生错误(%1$s)</string>
     <string name="info_send_xmrto_sent">BTC 已发送!</string>
     <string name="info_send_xmrto_query">查询中 &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>你可发送 %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b>提供的<u>即时</u>汇率为<b>%3$s BTC</b></i>.
+        <i><b>XCASH.TO</b>提供的<u>即时</u>汇率为<b>%3$s BTC</b></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>金额少于<b>%1$s BTC</b>，将可以<u>馬上</u>发送!</i>
     ]]></string>
 
-    <string name="send_available_btc">余额： %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">余额： %2$s BTC (%1$s XCASH)</string>
 
     <string name="info_paymentid_intergrated">已加入付款ID</string>
     <string name="info_prepare_tx">正在准备你的交易</string>
 
-    <string name="label_send_progress_xmrto_create">建立 XMR.TO 订单</string>
-    <string name="label_send_progress_xmrto_query">查询 XMR.TO 订单</string>
+    <string name="label_send_progress_xmrto_create">建立 XCASH.TO 订单</string>
+    <string name="label_send_progress_xmrto_query">查询 XCASH.TO 订单</string>
     <string name="label_send_progress_create_tx">正在准备 Monero 交易</string>
 
-    <string name="label_send_progress_queryparms">正在查询 XMR.TO 参数</string>
+    <string name="label_send_progress_queryparms">正在查询 XCASH.TO 参数</string>
 
-    <string name="label_generic_xmrto_error">XMR.TO 发生错误</string>
+    <string name="label_generic_xmrto_error">XCASH.TO 发生错误</string>
     <string name="text_generic_xmrto_error">错误代码: %1$d</string>
 
     <string name="text_retry">点选以重试</string>
     <string name="text_noretry_monero">我们卡住了!</string>
-    <string name="text_noretry">不好, XMR.TO 现在似乎无法提供服务!</string>
+    <string name="text_noretry">不好, XCASH.TO 现在似乎无法提供服务!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(汇率: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
+    <string name="text_send_btc_rate">(汇率: %1$s BTC/XCASH)</string>
 
-    <string name="label_send_btc_xmrto_info">参访 xmr.to 以获得支援及追踪交易</string>
-    <string name="label_send_btc_xmrto_key_lb">私钥\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO 私钥</string>
+    <string name="label_send_btc_xmrto_info">参访 XCASH.to 以获得支援及追踪交易</string>
+    <string name="label_send_btc_xmrto_key_lb">私钥\nXCASH.TO</string>
+    <string name="label_send_btc_xmrto_key">XCASH.TO 私钥</string>
     <string name="label_send_btc_address">目的地 BTC 地址</string>
     <string name="label_send_btc_amount">金额</string>
 
@@ -139,7 +139,7 @@
     <string name="label_wallet_receive">接收</string>
     <string name="label_wallet_send">发送</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s 未确认的 XMR </string>
+    <string name="xmr_unconfirmed_amount">+ %1$s 未确认的 XCASH </string>
 
     <string name="service_description">X-Cash 服务</string>
 
@@ -153,14 +153,14 @@
 
     <string name="label_copy_viewkey">查看密钥</string>
     <string name="label_copy_address">公开地址</string>
-    <string name="label_copy_xmrtokey">XMR.TO 密钥</string>
+    <string name="label_copy_xmrtokey">XCASH.TO 密钥</string>
     <string name="message_copy_viewkey">查看密钥已复制至剪贴簿！</string>
-    <string name="message_copy_xmrtokey">XMR.TO 密钥已复制至剪贴簿！</string>
+    <string name="message_copy_xmrtokey">XCASH.TO 密钥已复制至剪贴簿！</string>
     <string name="message_copy_address">钱包地址已复制至剪贴簿！</string>
     <string name="message_copy_txid">交易ID 已复制至剪贴簿！</string>
     <string name="message_nocopy">因安全性因素已停用复制功能！</string>
 
-    <string name="message_exchange_failed">无法取得汇率！\n使用 XMR/XMR 或重试</string>
+    <string name="message_exchange_failed">无法取得汇率！\n使用 XCASH/XCASH 或重试</string>
 
     <string name="generate_title">建立钱包</string>
     <string name="generate_name_hint">钱包名称</string>
@@ -221,19 +221,19 @@
     <string name="send_qr_address_invalid">这不是有效的付款QR码</string>
     <string name="send_address_invalid">这不是有效的地址</string>
     <string name="send_title">发送</string>
-    <string name="send_available">余额: %1$s XMR</string>
+    <string name="send_available">余额: %1$s XCASH</string>
     <string name="send_address_title">地址</string>
     <string name="send_amount_title">金额</string>
     <string name="send_confirm_title">确认</string>
     <string name="send_success_title">完成</string>
 
     <string name="send_amount_label">金额</string>
-    <string name="send_fee_btc_label">手续费 (XMR)</string>
+    <string name="send_fee_btc_label">手续费 (XCASH)</string>
     <string name="send_fee_label">手续费</string>
-    <string name="send_total_btc_label">总计 (XMR)</string>
+    <string name="send_total_btc_label">总计 (XCASH)</string>
     <string name="send_total_label">总计</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XCASH</string>
     <string name="send_fee">+%1$s 手续费</string>
 
     <string name="send_create_tx_error_title">建立交易错误</string>
@@ -367,7 +367,7 @@
     <string name="send_address_bip70">Resolved Payment URI &#x2714;</string>
     <string name="send_address_hint">Receiver</string>
 
-    <string name="xmrto_error_001">XMR.TO offline - try again later</string>
+    <string name="xmrto_error_001">XCASH.TO offline - try again later</string>
     <string name="xmrto_error_004">BTC amount out of bounds</string>
     <string name="xmrto_error_010">Invalid or outdated Payment URL</string>
     <string name="xmrto_error_012">Too many requests</string>

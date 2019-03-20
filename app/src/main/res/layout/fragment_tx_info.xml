@@ -158,7 +158,7 @@
                                 android:paddingEnd="8dp"
                                 android:paddingBottom="8dp"
                                 android:textColor="@color/white"
-                                tools:text="XMR.TO-d2KQ" />
+                                tools:text="XCASH.TO-d2KQ" />
                         </LinearLayout>
                     </TableRow>
 

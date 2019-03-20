@@ -44,7 +44,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textAlignment="textEnd"
-                    tools:text="143.008000 XMR" />
+                    tools:text="143.008000 XCASH" />
 
                 <TextView
                     android:id="@+id/tvTxFee"
@@ -238,7 +238,7 @@
                         android:paddingStart="16dp"
                         android:paddingTop="8dp"
                         android:textColor="@color/white"
-                        tools:text="XMR.TO-d2KQ" />
+                        tools:text="XCASH.TO-d2KQ" />
 
                     <TextView
                         style="@style/MoneroText"
