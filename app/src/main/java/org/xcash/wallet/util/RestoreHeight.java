@@ -42,6 +42,7 @@ public class RestoreHeight {
     private Map<String, Long> blockheight = new HashMap<>();
 
     RestoreHeight() {
+/*
         blockheight.put("2014-05-01", 18844L);
         blockheight.put("2014-06-01", 65406L);
         blockheight.put("2014-07-01", 108882L);
@@ -101,8 +102,9 @@ public class RestoreHeight {
         blockheight.put("2019-01-01", 1738923L);
         blockheight.put("2019-02-01", 1761435L);
         blockheight.put("2019-03-01", 1781681L);
+*/
     }
-
+/*
     public long getHeight(String date) {
         SimpleDateFormat parser = new SimpleDateFormat("yyyy-MM-dd");
         parser.setTimeZone(TimeZone.getTimeZone("UTC"));
@@ -170,4 +172,5 @@ public class RestoreHeight {
         }
         return height;
     }
+    */
 }

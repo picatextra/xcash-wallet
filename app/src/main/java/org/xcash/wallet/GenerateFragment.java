@@ -405,7 +405,7 @@ public class GenerateFragment extends Fragment {
 
         String restoreHeight = etWalletRestoreHeight.getEditText().getText().toString().trim();
         if (restoreHeight.isEmpty()) return -1;
-        try {
+        /*try {
             // is it a date?
             SimpleDateFormat parser = new SimpleDateFormat("yyyy-MM-dd");
             parser.setLenient(false);
@@ -420,7 +420,7 @@ public class GenerateFragment extends Fragment {
                 height = RestoreHeight.getInstance().getHeight(parser.parse(restoreHeight));
             } catch (ParseException ex) {
             }
-        if (height <= 0)
+        if (height <= 0)*/
             try {
                 // or is it a height?
                 height = Long.parseLong(restoreHeight);
