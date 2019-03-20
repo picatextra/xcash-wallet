@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.m2049r.xmrwallet.widget.SendProgressView
+        <org.xcash.wallet.widget.SendProgressView
             android:id="@+id/evXmrToParms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
         </LinearLayout>
     </FrameLayout>
 
-    <com.m2049r.xmrwallet.widget.ExchangeBtcTextView
+    <org.xcash.wallet.widget.ExchangeBtcTextView
         android:id="@+id/evAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
         android:layout_marginTop="16dp"
         android:orientation="vertical" />
 
-    <com.m2049r.xmrwallet.widget.NumberPadView
+    <org.xcash.wallet.widget.NumberPadView
         android:id="@+id/numberPad"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
