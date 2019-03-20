@@ -63,7 +63,7 @@
 
     <string name="label_send_progress_xmrto_create">XCASH.TO-opdracht maken</string>
     <string name="label_send_progress_xmrto_query">XCASH.TO-opdracht aanvragen</string>
-    <string name="label_send_progress_create_tx">Monero-transactie voorbereiden</string>
+    <string name="label_send_progress_create_tx">X-Cash-transactie voorbereiden</string>
 
     <string name="label_send_progress_queryparms">XCASH.TO-parameters aanvragen</string>
 
@@ -71,7 +71,7 @@
     <string name="text_generic_xmrto_error">Code: %1$d</string>
 
     <string name="text_retry">Opnieuw proberen</string>
-    <string name="text_noretry_monero">Nu zitten we vast…</string>
+    <string name="text_noretry_X-Cash">Nu zitten we vast…</string>
     <string name="text_noretry">Oeps, XCASH.TO is op dit moment niet beschikbaar.</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
@@ -214,8 +214,8 @@
     <string name="send_amount_hint">0,00</string>
     <string name="send_notes_hint">Opmerkingen voor jezelf (optioneel)</string>
     <string name="send_generate_paymentid_hint">Genereren</string>
-    <string name="send_send_label">Geef mijn mooie moneroj uit</string>
-    <string name="send_send_timed_label">Geef mijn mooie moneroj uit (%1$s)</string>
+    <string name="send_send_label">Geef mijn mooie X-Cash uit</string>
+    <string name="send_send_timed_label">Geef mijn mooie X-Cash uit (%1$s)</string>
     <string name="send_qr_invalid">Geen QR-code</string>
     <string name="send_qr_address_invalid">Geen geldige QR-code voor betaling</string>
     <string name="send_address_invalid">Geen geldig adres</string>

@@ -64,7 +64,7 @@
 
     <string name="label_send_progress_xmrto_create">Erstelle XCASH.TO Auftrag</string>
     <string name="label_send_progress_xmrto_query">Frage XCASH.TO Auftrag ab</string>
-    <string name="label_send_progress_create_tx">Bereite Monero Transaktion vor</string>
+    <string name="label_send_progress_create_tx">Bereite X-Cash Transaktion vor</string>
 
     <string name="label_send_progress_queryparms">Frage XCASH.TO Parameter ab</string>
 
@@ -72,7 +72,7 @@
     <string name="text_generic_xmrto_error">Code: %1$d</string>
 
     <string name="text_retry">Berühre zum Wiederholen</string>
-    <string name="text_noretry_monero">Jetzt hängen wir hier fest!</string>
+    <string name="text_noretry_X-Cash">Jetzt hängen wir hier fest!</string>
     <string name="text_noretry">Oh oh, XCASH.TO scheint im Moment nicht verfügbar zu sein!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
@@ -218,8 +218,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Private Notizen (optional)</string>
     <string name="send_generate_paymentid_hint">Erzeuge</string>
-    <string name="send_send_label">Gib meine wertvollen Moneroj aus</string>
-    <string name="send_send_timed_label">Gib meine wertvollen Moneroj aus (%1$s)</string>
+    <string name="send_send_label">Gib meine wertvollen X-Cash aus</string>
+    <string name="send_send_timed_label">Gib meine wertvollen X-Cash aus (%1$s)</string>
     <string name="send_qr_invalid">Kein QR-Code</string>
     <string name="send_qr_address_invalid">Kein gültiger Zahlungs-QR-Code</string>
     <string name="send_address_invalid">Keine gültige Adresse</string>

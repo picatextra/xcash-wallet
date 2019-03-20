@@ -72,7 +72,7 @@
     <string name="text_generic_xmrto_error">コード: %1$d</string>
 
     <string name="text_retry">タッチして再試行</string>
-    <string name="text_noretry_monero">私達はここで立ち往生のようです!</string>
+    <string name="text_noretry_X-Cash">私達はここで立ち往生のようです!</string>
     <string name="text_noretry">あーあ、 XCASH.TO は現在利用不能のようです!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

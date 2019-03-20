@@ -64,7 +64,7 @@
 
     <string name="label_send_progress_xmrto_create">Vytváram objednávku na XCASH.TO</string>
     <string name="label_send_progress_xmrto_query">Pýtam sa na objednávku XCASH.TO</string>
-    <string name="label_send_progress_create_tx">Pripravujem Monero transakciu</string>
+    <string name="label_send_progress_create_tx">Pripravujem X-Cash transakciu</string>
 
     <string name="label_send_progress_queryparms">Posielam XCASH.TO parametre</string>
 
@@ -72,7 +72,7 @@
     <string name="text_generic_xmrto_error">Kód chyby: %1$d</string>
 
     <string name="text_retry">Klepni pre opakovanie</string>
-    <string name="text_noretry_monero">Uviazli sme tu!</string>
+    <string name="text_noretry_X-Cash">Uviazli sme tu!</string>
     <string name="text_noretry">Myslím, že služba XCASH.TO nie je momentálne dostupná!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
@@ -215,8 +215,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Súkromné Poznámky (voliteľné)</string>
     <string name="send_generate_paymentid_hint">Generuj</string>
-    <string name="send_send_label">Odošli Monero</string>
-    <string name="send_send_timed_label">Odošli Monero (%1$s)</string>
+    <string name="send_send_label">Odošli X-Cash</string>
+    <string name="send_send_timed_label">Odošli X-Cash (%1$s)</string>
     <string name="send_qr_invalid">Neplatný QR Kód</string>
     <string name="send_qr_address_invalid">Neplatný QR Kód Platby</string>
     <string name="send_address_invalid">Neplatná Adresa</string>

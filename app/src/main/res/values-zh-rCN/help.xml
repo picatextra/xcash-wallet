@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>建立全新的钱包</h1>
-        <p>如果你需要一个新的Monero钱包地址!</p>
+        <p>如果你需要一个新的X-Cash钱包地址!</p>
         <p>请输入一个独特的钱包名称和钱包密码。
         密码用于保护你在该设备上的钱包资料，请使用足够强度的密码。</p>
         <h2>请抄写你的种子密语!</h2>
@@ -32,7 +32,7 @@
         <p>如果你已经有一个钱包地址，并想用密钥恢复它。</p>
         <p>请输入钱包名称（不得重复）和密码。
         这个密码是用来保护钱包在该设备上的信息，请使用足够强度的密码。</p>
-        <p>在栏位\"公开地址\"中输入你的Monero地址并填妥\"查看密钥\"与\"支付密钥\"。</p>
+        <p>在栏位\"公开地址\"中输入你的X-Cash地址并填妥\"查看密钥\"与\"支付密钥\"。</p>
         <p>若你知道你的第一笔交易是发生在哪个区块高度的話，请在栏位\"恢复高度\"中
         输入数值 - 若此栏留空则将会扫描<em>整个</em>区块链以寻找属于你钱包的交易与
         余额，将会支付<em>较长</em>的时间。</p>
@@ -43,7 +43,7 @@
         <p>如果你只是想查看一个钱包的存入金额!</p>
         <p>请输入不得重复的钱包名称与钱包密码。
         这个密码是用来保护钱包在该设备上的信息，请使用足够强度的密码。</p>
-        <p>在栏位\"公开地址\"中输入你的Monero地址并填妥\"查看密钥\"。</p>
+        <p>在栏位\"公开地址\"中输入你的X-Cash地址并填妥\"查看密钥\"。</p>
         <p>若你知道你的第一笔交易是发生在哪个区块高度的話，请在栏位\"恢复高度\"中
         输入数值 - 若此栏留空则将会扫描<em>整个</em>区块链以寻找属于你钱包的交易与
         余额，将会支付<em>较长</em>的时间。</p>
@@ -53,7 +53,7 @@
         <h1>钱包详细信息</h1>
         <h2>公开地址</h2>
         你的公开地址就像是银行账号一样可以与他人分享而不需要担心
-        会失去你的Monero，其他人可以透过这个地址发送Monero到你的钱包。
+        会失去你的X-Cash，其他人可以透过这个地址发送X-Cash到你的钱包。
         <h2>记忆种子码</h2>
         这是你唯一需要用来恢复钱包的信息并且可以用来取用钱包的完全权限。妥善保护好这份种子码是相当重要的事
         情，因为它可以给予<em>任何人</em>对你的钱包操作的权限!如果你还尚未在安全的地方抄写保存这份种子码，请尽速进行。
@@ -81,8 +81,8 @@
     <string name="help_list"><![CDATA[
         <h1>钱包列表</h1>
         <h2>节点</h2>
-        <p>X-Cash使用远端节点连接至Monero网络而不需要下载与储存整个区块链。
-        你可以在这个网站找到几个热门的公共远端节点或是学习如何自行架设节点 https://moneroworld.com/</p>
+        <p>X-Cash使用远端节点连接至X-Cash网络而不需要下载与储存整个区块链。
+        你可以在这个网站找到几个热门的公共远端节点或是学习如何自行架设节点 https://X-Cashworld.com/</p>
         <p>X-Cash 会预设数个远端节点可供使用。并且自动记忆最近五个使用过的节点</p>
         <h2>钱包</h2>
         <p>在这你可以看到你的钱包们。他们被储存在位于设备內部储存空间的<tt>X-Cash</tt>资料夹中。
@@ -91,7 +91,7 @@
         <h3>详细信息</h3>
         <p>显示钱包详细信息如种子码 &amp; 密钥。</p>
         <h3>接收</h3>
-        <p>产生一个QR码以接收Monero。</p>
+        <p>产生一个QR码以接收X-Cash。</p>
         <h3>重新命名</h3>
         <p>重新命名钱包名称，已备份的钱包不会被更改名称</p>
         <h3>备份</h3>
@@ -104,12 +104,12 @@
     <string name="help_tx_details"><![CDATA[
         <h1>交易明細</h1>
         <h2>收款地址</h2>
-        这是你发送Monero过去的钱包地址。
+        这是你发送X-Cash过去的钱包地址。
         <h2>付款ID</h2>
         你可以使用付款ID以帮助识別双方的款项交易。这是选填项目并且完全为隐私保护的。
         举例来說这可以让公司行号辨別你的这笔款项是用来支付某项购买的商品。
         <h2>交易ID</h2>
-        这是可以用来在Monero区块链浏览器上查询的被隐蔽交易ID。在这里可查询:
+        这是可以用来在X-Cash区块链浏览器上查询的被隐蔽交易ID。在这里可查询:
         <a href="https://xmrchain.net/">https://xmrchain.net/</a>
         <h2>TX KEY (交易密钥)</h2>
         这是该笔交易的私钥。请妥善保护这组密钥，因为这密钥将可揭露你该笔交易的环状签名
@@ -121,7 +121,7 @@
     <string name="help_send"><![CDATA[
         <h1>发送</h1>
         <h2>收款者地址</h2>
-        <p>这是你欲发送Monero过去的钱包地址。你可以从剪贴簿贴上, 扫描QR码或是手动输入。
+        <p>这是你欲发送X-Cash过去的钱包地址。你可以从剪贴簿贴上, 扫描QR码或是手动输入。
         请务必再三确认地址正确以免发送至错误的钱包地址</p>
         <p>In addition to using an XCASH address, you can also use
         <ul>
@@ -147,7 +147,7 @@
         <p>在 \"确认\" 的页面中，你将可以看到正式的XMR.TO订单。这订单仅在一段时间內有效。
         你可以在 \"发送\" 的按鈕上看到倒数计时。这时的汇率可能与前一个页面显示的不同</p>
         <h2>XCASH.TO 私钥<h2>
-        <p>由于X-Cash仅处理Monero的部分，你的XMR.TO密钥将可用于再XMR.TO的首页上查询追踪BTC部分的交易状況。</p>
+        <p>由于X-Cash仅处理X-Cash的部分，你的XMR.TO密钥将可用于再XMR.TO的首页上查询追踪BTC部分的交易状況。</p>
         <p>请注意，此密钥仅在交易发起的24小时內有效。</p>
         <h2>XCASH.TO 倒数计时!</h2>
         <p>当倒数计时归零的时候，你将会需要回到上一步再回到\"确认\"页面重新向XMR.TO寻求汇率报价</p>
@@ -167,7 +167,7 @@
         <p>在 \"确认\" 的页面中，你将可以看到正式的XMR.TO订单。这订单仅在一段时间內有效。
         你可以在 \"发送\" 的按鈕上看到倒数计时。这时的汇率可能与前一个页面显示的不同</p>
         <h2>XCASH.TO 私钥<h2>
-        <p>由于X-Cash仅处理Monero的部分，你的XMR.TO密钥将可用于再XMR.TO的首页上查询追踪BTC部分的交易状況。</p>
+        <p>由于X-Cash仅处理X-Cash的部分，你的XMR.TO密钥将可用于再XMR.TO的首页上查询追踪BTC部分的交易状況。</p>
         <p>请注意，此密钥仅在交易发起的24小时內有效。</p>
         <h2>XCASH.TO 倒数计时!</h2>
         <p>当倒数计时归零的时候，你将会需要回到上一步再回到\"确认\"页面重新向XMR.TO寻求汇率报价</p>
@@ -191,16 +191,16 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Moneroj!</p>
+        you can see that you have sent/received sweet X-Cash!</p>
         <h2>扫描</h2>
-        由于Monero的交易是隐私保护的，因此每当你开启X-Cash钱包时我们必须
-        在区块链上扫描是否有最新的Monero被传送到你的钱包中，将会储存仅与你钱包相关的信息在设备中。
+        由于X-Cash的交易是隐私保护的，因此每当你开启X-Cash钱包时我们必须
+        在区块链上扫描是否有最新的X-Cash被传送到你的钱包中，将会储存仅与你钱包相关的信息在设备中。
         若你有好一段时间沒有使用钱包，那这个步骤将会支付你一些时间。
         <h2>余额</h2>
         <p><b>救命啊! 我的钱包余额不见了/未确认!</b><br/>
         別紧张，当你发送交易出去时，你的部分余额可能会暂时显示未确认。
-        这只是Monero在区块链上进行找零的过程。
-        想了解更多关于找零的过程请参阅 https://getmonero.org/resources/moneropedia/change.html
+        这只是X-Cash在区块链上进行找零的过程。
+        想了解更多关于找零的过程请参阅 https://getX-Cash.org/resources/X-Cashpedia/change.html
         <h2>交易列表</h2>
         <p>钱包交易的列表。在唯读钱包中，仅会显示接收到的交易。</p>
     ]]></string>
@@ -212,7 +212,7 @@
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
         <p>X-Cash uses a Remote Node (sometimes also called Daemon) to communicate with
-        the Monero Network without having to download and store a copy of the
+        the X-Cash Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
         <p>If the list is empty, you can either add new nodes manually or let X-Cash
@@ -241,16 +241,16 @@
         The &quot;Test Results&quot; will display the blockheight, response time and actual IP used.
         The result may also be an error - usually because the hostname provided is
         not reachable in a sensible amount of time or the credentials are incorrect.
-        Or the hostname/port combination does not point to an actual Monero Node!
+        Or the hostname/port combination does not point to an actual X-Cash Node!
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
         <p>Additionally, you can scan the network for nodes. X-Cash will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
-        bookmarked nodes for other peers in the Monero P2P network and then continues
+        bookmarked nodes for other peers in the X-Cash P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        X-Cash will go straight to the Monero seed nodes hardcoded into Monero. The
+        X-Cash will go straight to the X-Cash seed nodes hardcoded into X-Cash. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 

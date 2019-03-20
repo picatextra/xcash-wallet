@@ -64,7 +64,7 @@
 
     <string name="label_send_progress_xmrto_create">建立 XCASH.TO 訂單</string>
     <string name="label_send_progress_xmrto_query">查詢 XCASH.TO 訂單</string>
-    <string name="label_send_progress_create_tx">正在準備 Monero 交易</string>
+    <string name="label_send_progress_create_tx">正在準備 X-Cash 交易</string>
 
     <string name="label_send_progress_queryparms">正在查詢 XCASH.TO 參數</string>
 
@@ -72,7 +72,7 @@
     <string name="text_generic_xmrto_error">錯誤代碼：%1$d</string>
 
     <string name="text_retry">點選以重試</string>
-    <string name="text_noretry_monero">我們卡住了！</string>
+    <string name="text_noretry_X-Cash">我們卡住了！</string>
     <string name="text_noretry">不好，XCASH.TO 現在似乎無法提供服務！</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
@@ -216,8 +216,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">註記 (選填)</string>
     <string name="send_generate_paymentid_hint">產生</string>
-    <string name="send_send_label">發送我的 Monero</string>
-    <string name="send_send_timed_label">發送我的 Monero (%1$s)</string>
+    <string name="send_send_label">發送我的 X-Cash</string>
+    <string name="send_send_timed_label">發送我的 X-Cash (%1$s)</string>
     <string name="send_qr_invalid">這不是 QR 碼</string>
     <string name="send_qr_address_invalid">這不是有效的付款 QR 碼</string>
     <string name="send_address_invalid">這不是有效的地址</string>

@@ -63,7 +63,7 @@
 
     <string name="label_send_progress_xmrto_create">Kreante mendon al XCASH.TO</string>
     <string name="label_send_progress_xmrto_query">Petante XCASH.TO-mendon </string>
-    <string name="label_send_progress_create_tx">Preparante la Monero-transakcion</string>
+    <string name="label_send_progress_create_tx">Preparante la X-Cash-transakcion</string>
 
     <string name="label_send_progress_queryparms">Petante la XCASH.TO-parametrojn</string>
 
@@ -71,7 +71,7 @@
     <string name="text_generic_xmrto_error">kodo: %1$d</string>
 
     <string name="text_retry">Tuŝu por reprovi</string>
-    <string name="text_noretry_monero">Ni blokiĝis ĉi tie!</string>
+    <string name="text_noretry_X-Cash">Ni blokiĝis ĉi tie!</string>
     <string name="text_noretry">Uh-oh, ŝajne XCASH.TO ne disponas momente!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
@@ -219,8 +219,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Privataj notoj (opcia)</string>
     <string name="send_generate_paymentid_hint">Generate</string>
-    <string name="send_send_label">Elspezi miajn dolĉajn monerojn</string>
-    <string name="send_send_timed_label">Elspezi miajn dolĉajn monerojn (%1$s)</string>
+    <string name="send_send_label">Elspezi miajn dolĉajn X-Cashn</string>
+    <string name="send_send_timed_label">Elspezi miajn dolĉajn X-Cashn (%1$s)</string>
     <string name="send_qr_invalid">Tio ne estas QR-kodo</string>
     <string name="send_qr_address_invalid">Tio ne estas kongrua paga QR-kodo</string>
     <string name="send_address_invalid">Tio ne estas valida adreso</string>

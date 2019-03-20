@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>Criar Carteira - Nova</h1>
-        <p>Se precisas de um endereço Monero novo!</p>
+        <p>Se precisas de um endereço X-Cash novo!</p>
         <p>Introduz nome e palavra passe únicos para a carteira.
         A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte -
         melhor ainda é utilizar uma frase passe.</p>
@@ -22,7 +22,7 @@
 
     <string name="help_create_seed"><![CDATA[
         <h1>Crirar Carteira - Semente</h1>
-        <p>Se já tens um Endereço Monero e queres recuperar as transacções da blockchain!</p>
+        <p>Se já tens um Endereço X-Cash e queres recuperar as transacções da blockchain!</p>
         <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
         <p>Introduz a tua Semente no campo \"Semente Mnemónica\".<p>
         <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
@@ -34,7 +34,7 @@
         <h1>Criar Carteira - Chaves</h1>
         <p>Se estás a recuperar a tua carteira a partir das tuas chaves!</p>
         <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
-        <p>Introduz o teu Endereço Monero no campo \"Endereço público\" e preenche a \"Chave de Visualização\" e a \"Chave de utilização\".</p>
+        <p>Introduz o teu Endereço X-Cash no campo \"Endereço público\" e preenche a \"Chave de Visualização\" e a \"Chave de utilização\".</p>
         <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
         \"Restaurar de Altura\" - deixar em branco vai verificar <em>toda</em> a blockchain para
         encontrar as transacções do teu endereço. Isto demora <em>imenso</em> tempo.</p>
@@ -44,7 +44,7 @@
         <h1>Criar Carteira - Visualização</h1>
         <p>Se apenas queres ver as transacções de depósito numa carteira!</p>
         <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
-        <p>Introduz o teu Endereço Monero no campo \"Endereço público\" e preenche a \"Chave de Visualização\".</p>
+        <p>Introduz o teu Endereço X-Cash no campo \"Endereço público\" e preenche a \"Chave de Visualização\".</p>
         <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
         \"Restaurar de Altura\" - deixar em branco vai verificar <em>toda</em> a blockchain para
         encontrar as transacções do teu endereço. Isto demora <em>imenso</em> tempo.</p>
@@ -54,12 +54,12 @@
         <h1>Detalhes da Carteira</h1>
         <h2>Endereço público</h2>
         O teu endereço público é como o teu número de conta bancário e podes partilhá-lo livremente
-        sem qualquer receio de perderes os teus Monero. As pessoas enviam dinheiro para a tua carteira
+        sem qualquer receio de perderes os teus X-Cash. As pessoas enviam dinheiro para a tua carteira
         através deste endereço.
         <h2>Semente Mnemónica</h2>
         Este é o único dado necessário para recuperar a tua carteira no futuro e ganhar acesso total aos
         teus fundos. Manter esta informação privada e protegida é muito importante, já que dá a <em>qualquer</em>
-        pessoa acesso aos teus Monero! Se não escreveste a semente nalgum sítio seguro, por favor fá-lo!
+        pessoa acesso aos teus X-Cash! Se não escreveste a semente nalgum sítio seguro, por favor fá-lo!
         <h2>Palavra passe dos Ficheiros da Carteira</h2>
         Certifica-te que escreves esta palavra passe. Se formatares o teu dispositivo ou desinstalares esta
         app, vais precisar precisar disto para acederes à tua carteira.<br/>
@@ -84,16 +84,16 @@
         A tua chave de visualização pode ser usada para ver as transacções de depósito sem dar permissão
         para gastar os fundos da tua carteira.
         <h2>Spend key</h2>
-        A tua chave de utilização permite a qualquer pessoa de gaster os Monero associados à tua carteira,
+        A tua chave de utilização permite a qualquer pessoa de gaster os X-Cash associados à tua carteira,
         por isso não a reveles a ninguém, mantém-a segura assim como a tua Semente Mnemónica.
     ]]></string>
 
     <string name="help_list"><![CDATA[
         <h1>Lista de Carteiras</h1>
         <h2>Nó</h2>
-        <p>O X-Cash utiliza um Nó Remoto para comunicar com a rede Monero sem ter que descarregar e
+        <p>O X-Cash utiliza um Nó Remoto para comunicar com a rede X-Cash sem ter que descarregar e
         guardar uma cópia da blockchain inteira. Podes encontrar uma lista de nós remotos populares ou
-        aprende como correr o teu próprio nó remoto em https://moneroworld.com/<p>
+        aprende como correr o teu próprio nó remoto em https://X-Cashworld.com/<p>
         <p>O X-Cash vem com alguns Nós Remotos predefinidos. O histórico dos últimos 5 nós é guardado.</p>
         <h2>Carteiras</h2>
         <p>Aqui vês as tuas carteiras. Estão localizadas na pasta <tt>X-Cash</tt>
@@ -105,7 +105,7 @@
         <h3>Detalhes</h3>
         <p>Mostra os detalhes da carteira, semente &amp; chaves.</p>
         <h3>Receber</h3>
-        <p>Cria um código QR para receber Moneroj.</p>
+        <p>Cria um código QR para receber X-Cash.</p>
         <h3>Renomear</h3>
         <p>Renomeia a carteira. As cópias de segurança não são renomeadas.</p>
         <h3>Cópia de segurança</h3>
@@ -120,14 +120,14 @@
     <string name="help_tx_details"><![CDATA[
         <h1>Detalhes da Transacção</h1>
         <h2>Destino</h2>
-        O endereço público para o qual enviaste Moneroj
+        O endereço público para o qual enviaste X-Cash
         <h2>ID do Pagamento</h2>
-        Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados Moneroj.
+        Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados X-Cash.
         Isto é opcional e privado. Por exemplo, isto permite que um negócio identifique que item
         é que uma determinada transacção está a pagar.
         <h2>ID TX</h2>
         Este é o ID da tua Transacção que podes utilizar para identificar a tua transacção ofuscada
-        num explorador da Monero Blockchain como o <a href="https://xmrchain.net/">https://xmrchain.net/</a>
+        num explorador da X-Cash Blockchain como o <a href="https://xmrchain.net/">https://xmrchain.net/</a>
         <h2>Chave TX (Chave da Transacção)</h2>
         Esta é a chave privada da tua transacção, mantém-a segura já que revelá-la a um terceiro
         revela qual a tua assinatura num anel, fazendo com que a tua transacção seja transparente.
@@ -138,7 +138,7 @@
     <string name="help_send"><![CDATA[
         <h1>Enviar</h1>
         <h2>Endereço do Destinatário</h2>
-        <p> Este é o endereço público da carteira para a qual vais enviar Moneroj, podes copiar esta
+        <p> Este é o endereço público da carteira para a qual vais enviar X-Cash, podes copiar esta
         informação da área de transferência, capturara um código QR, ou introduzir manualmente. Confirma
         atentamente que não estás a enviar para o endereço errado.</p>
         <p>In addition to using an XCASH address, you can also use
@@ -150,12 +150,12 @@
         Please note, that sending BTC is processed through the XCASH.TO service (see https://XCASH.to
         for details). See the section on sending BTC below.</p>
         <h2>ID do Pagamento</h2>
-        <p>Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados Moneroj.
+        <p>Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados X-Cash.
         Isto é opcional e privado. Por exemplo, isto permite que um negócio identifique que item
         é que uma determinada transacção está a pagar.</p>
         <h1>Enviar BTC</h1>
         <h2>XCASH.TO</h2>
-        <p>XCASH.TO é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
+        <p>XCASH.TO é um serviço de terceiros que funciona como intercâmbio de X-Cash para Bitcoin.
         Nós utilizamos a API do XCASH.TO para integrar pagamentos de Bitcoin no X-Cash. Por favor
         vai a https://XCASH.to e decide por ti próprio se queres utilizar este serviço. A equipa
         do X-Cash não está associada com o XCASH.TO e não te pode ajudar com este serviço.</p>
@@ -172,7 +172,7 @@
         botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
         nos ecrãs anteriores.</p>
         <h2>Chave Secreta XCASH.TO<h2>
-        <p>Como o X-Cash só controla a parte Monero da transacção, a chave secreta XCASH.TO
+        <p>Como o X-Cash só controla a parte X-Cash da transacção, a chave secreta XCASH.TO
         pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
         XCASH.TO.</p>
         <p>Nota que esta chave secreta só é válida por 24 horas depois de a transacção ter
@@ -185,7 +185,7 @@
     <string name="help_xmrto"><![CDATA[
         <h1>Enviar BTC</h1>
         <h2>XCASH.TO</h2>
-        <p>XCASH.TO é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
+        <p>XCASH.TO é um serviço de terceiros que funciona como intercâmbio de X-Cash para Bitcoin.
         Nós utilizamos a API do XCASH.TO para integrar pagamentos de Bitcoin no X-Cash. Por favor
         vai a https://XCASH.to e decide por ti próprio se queres utilizar este serviço. A equipa
         do X-Cash não está associada com o XCASH.TO e não te pode ajudar com este serviço.</p>
@@ -202,7 +202,7 @@
         botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
         nos ecrãs anteriores.</p>
         <h2>Chave Secreta XCASH.TO<h2>
-        <p>Como o X-Cash só controla a parte Monero da transacção, a chave secreta XCASH.TO
+        <p>Como o X-Cash só controla a parte X-Cash da transacção, a chave secreta XCASH.TO
         pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
         XCASH.TO.</p>
         <p>Nota que esta chave secreta só é válida por 24 horas depois de a transacção ter
@@ -230,18 +230,18 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Moneroj!</p>
+        you can see that you have sent/received sweet X-Cash!</p>
         <h2>A Examinar</h2>
-        Como o Monero gosta de manter as coisas privadas, cada vez que abres uma carteira X-Cash temos
-        que examinar a blockchain para ver se novos Moneroj foram enviados para a tua carteira. Apenas
+        Como o X-Cash gosta de manter as coisas privadas, cada vez que abres uma carteira X-Cash temos
+        que examinar a blockchain para ver se novos X-Cash foram enviados para a tua carteira. Apenas
         informação correspondente à tua carteira é guardada no telefone. Por vezes pode demorar algum tempo
         por já não sincronizares há algum tempo.
         <h2>O Saldo</h2>
         <p><b>Ajudem! O saldo da minha carteira desapareceu ou está não-confirmado!</b><br/>
         Não entres em pânico! Quando envias fundos da tua carteira, algum do teu saldo aparece temporariamente
         como não confirmado.
-        Isto acontece como resultado da forma como os Moneroj são trocados na blockchain.
-        Podes ler mais sobre iston em https://getmonero.org/resources/moneropedia/change.html
+        Isto acontece como resultado da forma como os X-Cash são trocados na blockchain.
+        Podes ler mais sobre iston em https://getX-Cash.org/resources/X-Cashpedia/change.html
         <h2>Lista de Transacções</h2>
         <p>Uma lista de transacções da carteira. Em carteiras de visualização, apenas são mostradas transacções
         de depósito.</p>
@@ -254,7 +254,7 @@
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
         <p>X-Cash uses a Remote Node (sometimes also called Daemon) to communicate with
-        the Monero Network without having to download and store a copy of the
+        the X-Cash Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
         <p>If the list is empty, you can either add new nodes manually or let X-Cash
@@ -283,16 +283,16 @@
         The &quot;Test Results&quot; will display the blockheight, response time and actual IP used.
         The result may also be an error - usually because the hostname provided is
         not reachable in a sensible amount of time or the credentials are incorrect.
-        Or the hostname/port combination does not point to an actual Monero Node!
+        Or the hostname/port combination does not point to an actual X-Cash Node!
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
         <p>Additionally, you can scan the network for nodes. X-Cash will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
-        bookmarked nodes for other peers in the Monero P2P network and then continues
+        bookmarked nodes for other peers in the X-Cash P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        X-Cash will go straight to the Monero seed nodes hardcoded into Monero. The
+        X-Cash will go straight to the X-Cash seed nodes hardcoded into X-Cash. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 

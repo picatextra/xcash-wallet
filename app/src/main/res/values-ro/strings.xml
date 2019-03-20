@@ -62,7 +62,7 @@
 
     <string name="label_send_progress_xmrto_create">Creearea ordinului XCASH.TO</string>
     <string name="label_send_progress_xmrto_query">Interogare ordin XCASH.TO</string>
-    <string name="label_send_progress_create_tx">Pregătirea tranzacției Monero</string>
+    <string name="label_send_progress_create_tx">Pregătirea tranzacției X-Cash</string>
 
     <string name="label_send_progress_queryparms">Interogare parametrii XCASH.to</string>
 
@@ -70,7 +70,7 @@
     <string name="text_generic_xmrto_error">Cod: %1$d</string>
 
     <string name="text_retry">Atinge pentru reîncercare</string>
-    <string name="text_noretry_monero">Pff.. ne-am blocat cum!</string>
+    <string name="text_noretry_X-Cash">Pff.. ne-am blocat cum!</string>
     <string name="text_noretry">Oh, serviciul XCASH.TO este momentan indisponibil!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
@@ -192,8 +192,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notițe private (facultativ)</string>
     <string name="send_generate_paymentid_hint">Generează</string>
-    <string name="send_send_label">Spend my sweet Moneroj</string>
-    <string name="send_send_timed_label">Spend my sweet Moneroj (%1$s)</string>
+    <string name="send_send_label">Spend my sweet X-Cash</string>
+    <string name="send_send_timed_label">Spend my sweet X-Cash (%1$s)</string>
     <string name="send_qr_invalid">Cod QR invalid</string>
     <string name="send_qr_address_invalid">Cod QR de plată invalid</string>
     <string name="send_address_invalid">Adresă invalidă</string>
