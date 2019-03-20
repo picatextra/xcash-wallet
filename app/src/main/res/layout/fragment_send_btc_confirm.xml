@@ -42,16 +42,6 @@
                         android:visibility="invisible">
 
                         <TextView
-                            style="@style/MoneroText.Confirm.Label"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="8dp"
-                            android:drawablePadding="8dp"
-                            android:drawableStart="@drawable/ic_xmrto_32dp"
-                            android:gravity="center_vertical"
-                            android:text="@string/label_send_btc_xmrto_key" />
-
-                        <TextView
                             android:id="@+id/tvTxXmrToKey"
                             style="@style/MoneroText"
                             android:layout_width="wrap_content"

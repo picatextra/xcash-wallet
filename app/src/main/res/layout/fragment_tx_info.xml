@@ -74,16 +74,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
-                    style="@style/MoneroText.Medium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:drawableStart="@drawable/ic_xmrto_32dp"
-                    android:drawablePadding="8dp"
-                    android:gravity="center"
-                    android:text="@string/label_send_btc_xmrto_info" />
-
                 <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -104,7 +94,7 @@
                             android:gravity="start"
                             android:padding="8dp"
                             android:selectAllOnFocus="true"
-                            android:textColor="@color/gradientOrange"
+                            android:textColor="@color/give"
                             android:textIsSelectable="true"
                             tools:text="1.008 BTC" />
                     </TableRow>

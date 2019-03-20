@@ -7,7 +7,8 @@
     android:layout_gravity="center"
     android:layout_margin="4dp"
     card_view:cardCornerRadius="1dp"
-    card_view:cardElevation="4dp">
+    card_view:cardElevation="4dp"
+    android:theme="@style/Theme.AppCompat.Light">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +28,6 @@
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_xmrto_32dp"
                 android:visibility="visible" />
 
             <LinearLayout
