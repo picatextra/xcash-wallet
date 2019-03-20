@@ -258,14 +258,14 @@ public class NodeFragment extends Fragment
                     }
                 });
                 // also seed with monero seed nodes (see p2p/net_node.inl:410 in monero src)
-                seedList.add(new NodeInfo(new InetSocketAddress("107.152.130.98", 18080)));
-                seedList.add(new NodeInfo(new InetSocketAddress("212.83.175.67", 18080)));
-                seedList.add(new NodeInfo(new InetSocketAddress("5.9.100.248", 18080)));
-                seedList.add(new NodeInfo(new InetSocketAddress("163.172.182.165", 18080)));
-                seedList.add(new NodeInfo(new InetSocketAddress("161.67.132.39", 18080)));
-                seedList.add(new NodeInfo(new InetSocketAddress("198.74.231.92", 18080)));
-                seedList.add(new NodeInfo(new InetSocketAddress("195.154.123.123", 18080)));
-                seedList.add(new NodeInfo(new InetSocketAddress("212.83.172.165", 18080)));
+                seedList.add(new NodeInfo(new InetSocketAddress("euseed1.x-cash.org",18280)));
+                seedList.add(new NodeInfo(new InetSocketAddress("euseed2.x-cash.org",18280)));
+                seedList.add(new NodeInfo(new InetSocketAddress("euseed3.x-cash.org",18280)));
+                seedList.add(new NodeInfo(new InetSocketAddress("usseed1.x-cash.org",18280)));
+                seedList.add(new NodeInfo(new InetSocketAddress("usseed2.x-cash.org",18280)));
+                seedList.add(new NodeInfo(new InetSocketAddress("usseed3.x-cash.org",18280)));
+                seedList.add(new NodeInfo(new InetSocketAddress("asiaseed1.x-cash.org",18280)));
+                seedList.add(new NodeInfo(new InetSocketAddress("asiaseed2.x-cash.org",18280)));
                 d.seedPeers(seedList);
                 d.awaitTermination(NODES_TO_FIND);
             }

@@ -34,9 +34,9 @@ import java.util.concurrent.TimeUnit;
 import timber.log.Timber;
 
 public class Dispatcher implements PeerRetriever.OnGetPeers {
-    static final public int NUM_THREADS = 50;
-    static final public int MAX_PEERS = 1000;
-    static final public long MAX_TIME = 30000000000L; //30 seconds
+    static final public int NUM_THREADS = 8;
+    static final public int MAX_PEERS = 100;
+    static final public long MAX_TIME = 10000000000L; //30 seconds
 
     private int peerCount = 0;
     final private Set<NodeInfo> knownNodes = new HashSet<>(); // set of nodes to test
