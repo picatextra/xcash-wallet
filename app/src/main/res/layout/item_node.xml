@@ -35,7 +35,7 @@
             style="@style/MoneroText.PosAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="monero-v9.monerujo.io" />
+            tools:text="monero-v9.x-network.io" />
 
         <TextView
             android:id="@+id/tvAddress"

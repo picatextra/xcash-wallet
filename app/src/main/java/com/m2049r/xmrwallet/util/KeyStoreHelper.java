@@ -63,7 +63,7 @@ public class KeyStoreHelper {
 
     public static native byte[] slowHash(byte[] data, int brokenVariant);
 
-    static final private String RSA_ALIAS = "MonerujoRSA";
+    static final private String RSA_ALIAS = "XCashRSA";
 
     private static String getCrazyPass(Context context, String password, int brokenVariant) {
         byte[] data = password.getBytes(StandardCharsets.UTF_8);

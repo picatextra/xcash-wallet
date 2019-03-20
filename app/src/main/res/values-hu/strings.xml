@@ -140,7 +140,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMR függőben</string>
 
-    <string name="service_description">monerujo szolgáltatás</string>
+    <string name="service_description">X-Cash szolgáltatás</string>
 
     <string name="status_synced">Szinkronizálva:</string>
     <string name="status_remaining">blokk van hátra</string>
@@ -169,10 +169,10 @@
         <strong>Ujjlenyomat-azonosítás</strong>
         <p>Az ujjlenyomat-azonosítás engedélyezésével jelszó megadása nélkül tekintheted meg a
         tárcaegyenleget és fogadhatsz pénzösszegeket.</p>
-        <p>A további biztonság érdekében ugyanakkor a monerujo továbbra is jelszót fog kérni a
+        <p>A további biztonság érdekében ugyanakkor a X-Cash továbbra is jelszót fog kérni a
         tárca részletes adatainak megtekintése és a pénzküldés esetén.</p>
         <strong>Biztonsági figyelmeztetés</strong>
-        <p>A monerujo felhívja a figyelmed arra, hogy az ujjlenyomatoddal rendelkező személy(ek)
+        <p>A X-Cash felhívja a figyelmed arra, hogy az ujjlenyomatoddal rendelkező személy(ek)
         megtekinthetik a tárcaegyenleged.</p>
         <p>Egy rosszhiszemű személy például megnyithatja a tárcádat míg te alszol.</p>
         <strong>Biztosan engedélyezni szeretnéd ezt a funckiót?</strong>

@@ -61,7 +61,7 @@
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/ic_refresh_black_24dp"
                         android:drawablePadding="8dp"
-                        tools:text="monero-v9.monerujo.io" />
+                        tools:text="monero-v9.x-network.io" />
 
                     <TextView
                         android:id="@+id/tvNodeAddress"

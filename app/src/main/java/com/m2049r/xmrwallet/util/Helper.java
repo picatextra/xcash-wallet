@@ -83,9 +83,9 @@ public class Helper {
 
     static public final String NOCRAZYPASS_FLAGFILE = ".nocrazypass";
 
-    static public final String CRYPTO = "XMR";
+    static public final String CRYPTO = "X-Cash";
 
-    static private final String WALLET_DIR = "monerujo" + FLAVOR_SUFFIX;
+    static private final String WALLET_DIR = "XCash" + FLAVOR_SUFFIX;
     static private final String HOME_DIR = "monero" + FLAVOR_SUFFIX;
 
     static public int DISPLAY_DIGITS_INFO = 5;
@@ -344,7 +344,7 @@ public class Helper {
     // TODO make the log levels refer to the  WalletManagerFactory::LogLevel enum ?
     static public void initLogger(Context context, int level) {
         String home = getStorage(context, HOME_DIR).getAbsolutePath();
-        WalletManager.initLogger(home + "/monerujo", "monerujo.log");
+        WalletManager.initLogger(home + "/XCash", "xcash.log");
         if (level >= WalletManager.LOGLEVEL_SILENT)
             WalletManager.setLogLevel(level);
     }

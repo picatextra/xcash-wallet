@@ -69,7 +69,7 @@
         若要启用，只需要在选单中点选\"更改密码\"，在输入新的密码后(即使是与先前的密码相同)，APP将会对
         你的钱包档进行CrAzYpass加密，请将密码抄写下来!
         <h3>CrAzYpass加密的钱包</h3>
-        如果你需要重新安裝 Monerujo (譬如将手机重置或换了新的手机)，或是你想要将钱包档在別的设备或电脑上使用，你将必须
+        如果你需要重新安裝 X-Cash (譬如将手机重置或换了新的手机)，或是你想要将钱包档在別的设备或电脑上使用，你将必须
         使用钱包恢复密码才能重新存取钱包。<br/>
         当你在选单中点选 \"更改密码\"时，可以更换新的密码，但是请注意这同时会产生一组新的钱包恢复密码，请抄写下来!
         <h2>查看密钥</h2>
@@ -81,11 +81,11 @@
     <string name="help_list"><![CDATA[
         <h1>钱包列表</h1>
         <h2>节点</h2>
-        <p>Monerujo使用远端节点连接至Monero网络而不需要下载与储存整个区块链。
+        <p>X-Cash使用远端节点连接至Monero网络而不需要下载与储存整个区块链。
         你可以在这个网站找到几个热门的公共远端节点或是学习如何自行架设节点 https://moneroworld.com/</p>
-        <p>Monerujo 会预设数个远端节点可供使用。并且自动记忆最近五个使用过的节点</p>
+        <p>X-Cash 会预设数个远端节点可供使用。并且自动记忆最近五个使用过的节点</p>
         <h2>钱包</h2>
-        <p>在这你可以看到你的钱包们。他们被储存在位于设备內部储存空间的<tt>monerujo</tt>资料夹中。
+        <p>在这你可以看到你的钱包们。他们被储存在位于设备內部储存空间的<tt>X-Cash</tt>资料夹中。
         你可以利用档案浏览器APP找到他们。你应该在设备以外的地方备份他们以免你的设备爆炸或失窃后的损失。</p>
         <p>选择一个钱包开启或点选\"+\"符号以建立一个新的。或是选择以下的操作:</p>
         <h3>详细信息</h3>
@@ -95,7 +95,7 @@
         <h3>重新命名</h3>
         <p>重新命名钱包名称，已备份的钱包不会被更改名称</p>
         <h3>备份</h3>
-        <p>建立一份钱包副本在<tt>monerujo</tt>中的<tt>backups</tt>资料夹內并覆写上一次的备份。</p>
+        <p>建立一份钱包副本在<tt>X-Cash</tt>中的<tt>backups</tt>资料夹內并覆写上一次的备份。</p>
         <h3>封存</h3>
         <p>将建立一份备份后刪除钱包，钱包副本将会留存于<tt>backups</tt>资料夹中。
         若你再也不需要这钱包则可利用档案浏览器APP或可安全刪除档案APP将之刪除。</p>
@@ -137,8 +137,8 @@
         <h1>发送BTC</h1>
         <h2>XMR.TO</h2>
         <p>XMR.TO 是一个可以将XMR转换为BTC的第三方服务。
-        我们利用XMR.TO的API将其服务整合至Monerujo中。请参阅 https://xmr.to 后自行决定是否使用。
-        Monerujo开发团队与XMR.TO并无相关，无法为你解决其服务上的问題</p>
+        我们利用XMR.TO的API将其服务整合至X-Cash中。请参阅 https://xmr.to 后自行决定是否使用。
+        X-Cash开发团队与XMR.TO并无相关，无法为你解决其服务上的问題</p>
         <h2>XMR.TO 汇率<h2>
         <p>在 \"金额\" 的页面中你将看到 XMR.TO 服务的参数。包含了汇率以及BTC金额的上下限。
         请注意这个阶段显示的汇率并不是确定的。你也可以看到在多少金额之下可以直接发送BTC，而不用等待XMR的确认。
@@ -147,7 +147,7 @@
         <p>在 \"确认\" 的页面中，你将可以看到正式的XMR.TO订单。这订单仅在一段时间內有效。
         你可以在 \"发送\" 的按鈕上看到倒数计时。这时的汇率可能与前一个页面显示的不同</p>
         <h2>XMR.TO 私钥<h2>
-        <p>由于Monerujo仅处理Monero的部分，你的XMR.TO密钥将可用于再XMR.TO的首页上查询追踪BTC部分的交易状況。</p>
+        <p>由于X-Cash仅处理Monero的部分，你的XMR.TO密钥将可用于再XMR.TO的首页上查询追踪BTC部分的交易状況。</p>
         <p>请注意，此密钥仅在交易发起的24小时內有效。</p>
         <h2>XMR.TO 倒数计时!</h2>
         <p>当倒数计时归零的时候，你将会需要回到上一步再回到\"确认\"页面重新向XMR.TO寻求汇率报价</p>
@@ -157,8 +157,8 @@
         <h1>发送 BTC</h1>
         <h2>XMR.TO</h2>
         <p>XMR.TO 是一个可以将XMR转换为BTC的第三方服务。
-        我们利用XMR.TO的API将其服务整合至Monerujo中。请参阅 https://xmr.to 后自行决定是否使用。
-        Monerujo开发团队与XMR.TO并无相关，无法为你解决其服务上的问題</p>
+        我们利用XMR.TO的API将其服务整合至X-Cash中。请参阅 https://xmr.to 后自行决定是否使用。
+        X-Cash开发团队与XMR.TO并无相关，无法为你解决其服务上的问題</p>
         <h2>XMR.TO 汇率<h2>
         <p>在 \"金额\" 的页面中你将看到 XMR.TO 服务的参数。包含了汇率以及BTC金额的上下限。
         请注意这个阶段显示的汇率并不是确定的。你也可以看到多少金额的可以进行零确认XMR的BTC发送
@@ -167,7 +167,7 @@
         <p>在 \"确认\" 的页面中，你将可以看到正式的XMR.TO订单。这订单仅在一段时间內有效。
         你可以在 \"发送\" 的按鈕上看到倒数计时。这时的汇率可能与前一个页面显示的不同</p>
         <h2>XMR.TO 私钥<h2>
-        <p>由于Monerujo仅处理Monero的部分，你的XMR.TO密钥将可用于再XMR.TO的首页上查询追踪BTC部分的交易状況。</p>
+        <p>由于X-Cash仅处理Monero的部分，你的XMR.TO密钥将可用于再XMR.TO的首页上查询追踪BTC部分的交易状況。</p>
         <p>请注意，此密钥仅在交易发起的24小时內有效。</p>
         <h2>XMR.TO 倒数计时!</h2>
         <p>当倒数计时归零的时候，你将会需要回到上一步再回到\"确认\"页面重新向XMR.TO寻求汇率报价</p>
@@ -193,7 +193,7 @@
         other public place. Previous transactions are also hidden. New transactions will be shown, so
         you can see that you have sent/received sweet Moneroj!</p>
         <h2>扫描</h2>
-        由于Monero的交易是隐私保护的，因此每当你开启Monerujo钱包时我们必须
+        由于Monero的交易是隐私保护的，因此每当你开启X-Cash钱包时我们必须
         在区块链上扫描是否有最新的Monero被传送到你的钱包中，将会储存仅与你钱包相关的信息在设备中。
         若你有好一段时间沒有使用钱包，那这个步骤将会支付你一些时间。
         <h2>余额</h2>
@@ -208,14 +208,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodes</h1>
         <h2>TL;DR</h2>
-        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow Monerujo
+        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow X-Cash
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
-        <p>Monerujo uses a Remote Node (sometimes also called Daemon) to communicate with
+        <p>X-Cash uses a Remote Node (sometimes also called Daemon) to communicate with
         the Monero Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
-        <p>If the list is empty, you can either add new nodes manually or let Monerujo
+        <p>If the list is empty, you can either add new nodes manually or let X-Cash
         scan the network for you. Or both. Read on&#8230;</p>
         <p>The node list shows all currently known nodes. Additionally, the timestamp
         of the latest block known to each node is shown under the node name. An icon
@@ -224,10 +224,10 @@
         is shown next to each node.</p>
         <p>Any node in the list can be bookmarked for later use.
         Nodes which are not bookmarked will be forgotten.<p>
-        <p>Monerujo will choose the optimal bookmarked node each time you use it.
+        <p>X-Cash will choose the optimal bookmarked node each time you use it.
         It does this by checking the blockheight (how up-to-date
         is the node?) as well as the response behaviour (how fast does the node respond to requests?).</p>
-        <p>The list is sorted by these characteristics, so the top node would be the one Monerujo
+        <p>The list is sorted by these characteristics, so the top node would be the one X-Cash
         would choose right now. The bottom of the list would show very slow or unavailable nodes.</p>
         <h2>Add a Node</h2>
         <p>By touching the &quot;Add Node&quot; button at the bottom, you will be asked to
@@ -245,12 +245,12 @@
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
-        <p>Additionally, you can scan the network for nodes. Monerujo will start
+        <p>Additionally, you can scan the network for nodes. X-Cash will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
         bookmarked nodes for other peers in the Monero P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        Monerujo will go straight to the Monero seed nodes hardcoded into Monero. The
+        X-Cash will go straight to the Monero seed nodes hardcoded into Monero. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 
@@ -258,7 +258,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have started X-Cash with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

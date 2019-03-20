@@ -75,7 +75,7 @@
         menu. Após introduzir a nova palavra passe (podes usar a mesma) a aplicação gera uma passLoUCa para
         ti e protege os ficheiros da tua carteira com ela. Escreve-a nalgum lado!
         <h3>Carteiras com passLoUCa</h3>
-        Se precisares de reinstalar o Monerujo (por exemplo, depois de formatares o telemóvel ou trocares
+        Se precisares de reinstalar o X-Cash (por exemplo, depois de formatares o telemóvel ou trocares
         para um novo) ou quiseres utilizar os ficheiros da carteira num dispositivo diferente ou PC, tens
         que usar esta Palavra passe de Recuperação de forma a aceder à tua carteira novamente.<br/>
         Ao seleccionar \"Alterar palavra passe\" do menu, podes escolher uma palavra passe nova. Cuidado
@@ -91,12 +91,12 @@
     <string name="help_list"><![CDATA[
         <h1>Lista de Carteiras</h1>
         <h2>Nó</h2>
-        <p>O Monerujo utiliza um Nó Remoto para comunicar com a rede Monero sem ter que descarregar e
+        <p>O X-Cash utiliza um Nó Remoto para comunicar com a rede Monero sem ter que descarregar e
         guardar uma cópia da blockchain inteira. Podes encontrar uma lista de nós remotos populares ou
         aprende como correr o teu próprio nó remoto em https://moneroworld.com/<p>
-        <p>O Monerujo vem com alguns Nós Remotos predefinidos. O histórico dos últimos 5 nós é guardado.</p>
+        <p>O X-Cash vem com alguns Nós Remotos predefinidos. O histórico dos últimos 5 nós é guardado.</p>
         <h2>Carteiras</h2>
-        <p>Aqui vês as tuas carteiras. Estão localizadas na pasta <tt>monerujo</tt>
+        <p>Aqui vês as tuas carteiras. Estão localizadas na pasta <tt>X-Cash</tt>
         na memória interna do teu dispositivo. Podes utilizar um explorador de ficheiros
         para vê-las. Deves fazer cópias de segurança desta pasta regularmente para outro
         dispositivo para o caso dele explodir ou ser roubado.</p>
@@ -110,7 +110,7 @@
         <p>Renomeia a carteira. As cópias de segurança não são renomeadas.</p>
         <h3>Cópia de segurança</h3>
         <p>Faz uma cópia da carteira na pasta <tt>cópias de segurança</tt> dentro do
-        <tt>monerujo</tt> reescrevendo cópias anteriores que lá estejam.</p>
+        <tt>X-Cash</tt> reescrevendo cópias anteriores que lá estejam.</p>
         <h3>Arquivar</h3>
         <p>Faz uma cópia de segurança e de seguida apaga a carteira. a cópia permanece na pasta de
         <tt>cópias de segurança</tt>. Se já não precisas das tuas cópias de segurança, deves apagá-las
@@ -156,9 +156,9 @@
         <h1>Enviar BTC</h1>
         <h2>XMR.TO</h2>
         <p>XMR.TO é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
-        Nós utilizamos a API do XMR.TO para integrar pagamentos de Bitcoin no Monerujo. Por favor
+        Nós utilizamos a API do XMR.TO para integrar pagamentos de Bitcoin no X-Cash. Por favor
         vai a https://xmr.to e decide por ti próprio se queres utilizar este serviço. A equipa
-        do Monerujo não está associada com o XMR.TO e não te pode ajudar com este serviço.</p>
+        do X-Cash não está associada com o XMR.TO e não te pode ajudar com este serviço.</p>
         <h2>Taxa de câmbio XMR.TO<h2>
         <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço XMR.TO. Estes
         incluem a taxa de câmbio assim como os limites superiores e inferiores em BTC. Nota que
@@ -172,7 +172,7 @@
         botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
         nos ecrãs anteriores.</p>
         <h2>Chave Secreta XMR.TO<h2>
-        <p>Como o Monerujo só controla a parte Monero da transacção, a chave secreta XMR.TO
+        <p>Como o X-Cash só controla a parte Monero da transacção, a chave secreta XMR.TO
         pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
         XMR.TO.</p>
         <p>Nota que esta chave secreta só é válida por 24 horas depois de a transacção ter
@@ -186,9 +186,9 @@
         <h1>Enviar BTC</h1>
         <h2>XMR.TO</h2>
         <p>XMR.TO é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
-        Nós utilizamos a API do XMR.TO para integrar pagamentos de Bitcoin no Monerujo. Por favor
+        Nós utilizamos a API do XMR.TO para integrar pagamentos de Bitcoin no X-Cash. Por favor
         vai a https://xmr.to e decide por ti próprio se queres utilizar este serviço. A equipa
-        do Monerujo não está associada com o XMR.TO e não te pode ajudar com este serviço.</p>
+        do X-Cash não está associada com o XMR.TO e não te pode ajudar com este serviço.</p>
         <h2>Taxa de câmbio XMR.TO<h2>
         <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço XMR.TO. Estes
         incluem a taxa de câmbio assim como os limites superiores e inferiores em BTC. Nota que
@@ -202,7 +202,7 @@
         botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
         nos ecrãs anteriores.</p>
         <h2>Chave Secreta XMR.TO<h2>
-        <p>Como o Monerujo só controla a parte Monero da transacção, a chave secreta XMR.TO
+        <p>Como o X-Cash só controla a parte Monero da transacção, a chave secreta XMR.TO
         pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
         XMR.TO.</p>
         <p>Nota que esta chave secreta só é válida por 24 horas depois de a transacção ter
@@ -232,7 +232,7 @@
         other public place. Previous transactions are also hidden. New transactions will be shown, so
         you can see that you have sent/received sweet Moneroj!</p>
         <h2>A Examinar</h2>
-        Como o Monero gosta de manter as coisas privadas, cada vez que abres uma carteira Monerujo temos
+        Como o Monero gosta de manter as coisas privadas, cada vez que abres uma carteira X-Cash temos
         que examinar a blockchain para ver se novos Moneroj foram enviados para a tua carteira. Apenas
         informação correspondente à tua carteira é guardada no telefone. Por vezes pode demorar algum tempo
         por já não sincronizares há algum tempo.
@@ -250,14 +250,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodes</h1>
         <h2>TL;DR</h2>
-        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow Monerujo
+        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow X-Cash
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
-        <p>Monerujo uses a Remote Node (sometimes also called Daemon) to communicate with
+        <p>X-Cash uses a Remote Node (sometimes also called Daemon) to communicate with
         the Monero Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
-        <p>If the list is empty, you can either add new nodes manually or let Monerujo
+        <p>If the list is empty, you can either add new nodes manually or let X-Cash
         scan the network for you. Or both. Read on&#8230;</p>
         <p>The node list shows all currently known nodes. Additionally, the timestamp
         of the latest block known to each node is shown under the node name. An icon
@@ -266,10 +266,10 @@
         is shown next to each node.</p>
         <p>Any node in the list can be bookmarked for later use.
         Nodes which are not bookmarked will be forgotten.<p>
-        <p>Monerujo will choose the optimal bookmarked node each time you use it.
+        <p>X-Cash will choose the optimal bookmarked node each time you use it.
         It does this by checking the blockheight (how up-to-date
         is the node?) as well as the response behaviour (how fast does the node respond to requests?).</p>
-        <p>The list is sorted by these characteristics, so the top node would be the one Monerujo
+        <p>The list is sorted by these characteristics, so the top node would be the one X-Cash
         would choose right now. The bottom of the list would show very slow or unavailable nodes.</p>
         <h2>Add a Node</h2>
         <p>By touching the &quot;Add Node&quot; button at the bottom, you will be asked to
@@ -287,12 +287,12 @@
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
-        <p>Additionally, you can scan the network for nodes. Monerujo will start
+        <p>Additionally, you can scan the network for nodes. X-Cash will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
         bookmarked nodes for other peers in the Monero P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        Monerujo will go straight to the Monero seed nodes hardcoded into Monero. The
+        X-Cash will go straight to the Monero seed nodes hardcoded into Monero. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 
@@ -300,7 +300,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have started X-Cash with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>
