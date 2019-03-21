@@ -274,14 +274,8 @@ public class LoginFragment extends Fragment implements WalletInfoAdapter.OnInter
         // deal with Gunther & FAB animation
         if (displayedList.isEmpty()) {
             fab.startAnimation(fab_pulse);
-            if (ivGunther.getDrawable() == null) {
-                ivGunther.setImageResource(R.drawable.gunther_desaturated);
-            }
         } else {
             fab.clearAnimation();
-            if (ivGunther.getDrawable() != null) {
-                ivGunther.setImageDrawable(null);
-            }
         }
 
         // remove information of non-existent wallet

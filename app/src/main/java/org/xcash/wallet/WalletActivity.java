@@ -287,7 +287,7 @@ public class WalletActivity extends BaseActivity implements WalletFragment.Liste
 
     private void updateStreetMode() {
         if (isStreetMode()) {
-            toolbar.setBackgroundResource(R.drawable.backgound_toolbar_streetmode);
+            //toolbar.setBackgroundResource(R.drawable.backgound_toolbar_streetmode);
         } else {
             showNet();
         }
@@ -391,19 +391,7 @@ public class WalletActivity extends BaseActivity implements WalletFragment.Liste
     }
 
     public void showNet() {
-        switch (WalletManager.getInstance().getNetworkType()) {
-            case NetworkType_Mainnet:
-                toolbar.setBackgroundResource(R.drawable.backgound_toolbar_mainnet);
-                break;
-            case NetworkType_Testnet:
-                toolbar.setBackgroundResource(R.color.colorPrimaryDark);
-                break;
-            case NetworkType_Stagenet:
-                toolbar.setBackgroundResource(R.color.colorPrimaryDark);
-                break;
-            default:
-                throw new IllegalStateException("Unsupported Network: " + WalletManager.getInstance().getNetworkType());
-        }
+
     }
 
     @Override

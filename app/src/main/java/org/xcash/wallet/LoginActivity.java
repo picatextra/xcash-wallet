@@ -638,22 +638,7 @@ public class LoginActivity extends BaseActivity
     }
 
     private void showNet(NetworkType net) {
-        switch (net) {
-            case NetworkType_Mainnet:
-                toolbar.setSubtitle(null);
-                toolbar.setBackgroundResource(R.drawable.backgound_toolbar_mainnet);
-                break;
-            case NetworkType_Testnet:
-                toolbar.setSubtitle(getString(R.string.connect_testnet));
-                toolbar.setBackgroundResource(R.color.colorPrimaryDark);
-                break;
-            case NetworkType_Stagenet:
-                toolbar.setSubtitle(getString(R.string.connect_stagenet));
-                toolbar.setBackgroundResource(R.color.colorPrimaryDark);
-                break;
-            default:
-                throw new IllegalStateException("NetworkType unknown: " + net);
-        }
+
     }
 
     @Override

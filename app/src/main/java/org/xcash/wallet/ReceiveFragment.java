@@ -542,7 +542,7 @@ public class ReceiveFragment extends Fragment {
 
     private Bitmap getMoneroLogo() {
         if (logo == null) {
-            logo = Helper.getBitmap(getContext(), R.drawable.ic_monero_logo_b);
+            logo = Helper.getBitmap(getContext(), R.drawable.xcash_small);
         }
         return logo;
     }

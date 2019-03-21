@@ -44,7 +44,7 @@
 
             <intent-filter android:label="@string/app_name">
                 <action android:name="android.intent.action.VIEW" />
-                <data android:scheme="monero" />
+                <data android:scheme="xcash" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
@@ -67,11 +67,11 @@
             android:name=".service.WalletService"
             android:description="@string/service_description"
             android:exported="false"
-            android:label="Monero Wallet Service" />
+            android:label="X-Cash Wallet Service" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="${applicationId}.fileprovider"
+            android:authorities="org.xcash.wallet.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
