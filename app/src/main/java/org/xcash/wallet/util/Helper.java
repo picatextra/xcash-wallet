@@ -85,10 +85,10 @@ public class Helper {
 
     static public final String NOCRAZYPASS_FLAGFILE = ".nocrazypass";
 
-    static public final String CRYPTO = "X-Cash";
+    static public final String CRYPTO = "XCASH";
 
     static private final String WALLET_DIR = "XCash" + FLAVOR_SUFFIX;
-    static private final String HOME_DIR = "monero" + FLAVOR_SUFFIX;
+    static private final String HOME_DIR = WALLET_DIR;
 
     static public int DISPLAY_DIGITS_INFO = 5;
 
