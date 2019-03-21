@@ -37,8 +37,8 @@ public class Notice {
     private static final String PREFS_NAME = "notice";
     private static List<Notice> notices = null;
 
-    private static final String NOTICE_SHOW_XMRTO_ENABLED_LOGIN = "notice_xmrto_enabled_login";
-    private static final String NOTICE_SHOW_XMRTO_ENABLED_SEND = "notice_xmrto_enabled_send";
+    //private static final String NOTICE_SHOW_XMRTO_ENABLED_LOGIN = "notice_xmrto_enabled_login";
+    //private static final String NOTICE_SHOW_XMRTO_ENABLED_SEND = "notice_xmrto_enabled_send";
     private static final String NOTICE_SHOW_LEDGER = "notice_ledger_enabled_login";
     private static final String NOTICE_SHOW_NODES = "notice_nodes";
 
@@ -52,6 +52,7 @@ public class Notice {
                             R.string.help_node,
                             1)
             );
+            /*
             notices.add(
                     new Notice(NOTICE_SHOW_XMRTO_ENABLED_SEND,
                             R.string.info_xmrto_enabled,
@@ -63,7 +64,7 @@ public class Notice {
                             R.string.info_xmrto_enabled,
                             R.string.help_xmrto,
                             1)
-            );
+            );*/
             notices.add(
                     new Notice(NOTICE_SHOW_LEDGER,
                             R.string.info_ledger_enabled,

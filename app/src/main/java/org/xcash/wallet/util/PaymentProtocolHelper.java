@@ -19,10 +19,6 @@
 package org.xcash.wallet.util;
 
 import org.xcash.wallet.data.BarcodeData;
-import org.xcash.wallet.xmrto.api.CreateOrder;
-import org.xcash.wallet.xmrto.api.XmrToApi;
-import org.xcash.wallet.xmrto.api.XmrToCallback;
-import org.xcash.wallet.xmrto.network.XmrToApiImpl;
 
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
@@ -62,8 +58,11 @@ public class PaymentProtocolHelper {
     }
 
     static public boolean resolve(final String bip70, final OnResolvedListener resolvedListener) {
+
+        /*
         if ((bip70 == null) || (bip70.isEmpty()))
             return false; //pointless trying to lookup nothing
+
         Timber.d("Resolving %s", bip70);
         getXmrToApi().createOrder(bip70, new XmrToCallback<CreateOrder>() {
             @Override
@@ -82,10 +81,10 @@ public class PaymentProtocolHelper {
                     resolvedListener.onFailure(ex);
                 }
             }
-        });
-        return true;
+        });*/
+        return false;
     }
-
+/*
     static private XmrToApi xmrToApi = null;
 
     static private XmrToApi getXmrToApi() {
@@ -98,5 +97,5 @@ public class PaymentProtocolHelper {
             }
         }
         return xmrToApi;
-    }
+    }*/
 }

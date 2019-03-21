@@ -46,8 +46,6 @@ import org.xcash.wallet.util.BitcoinAddressValidator;
 import org.xcash.wallet.util.Helper;
 import org.xcash.wallet.util.OpenAliasHelper;
 import org.xcash.wallet.util.PaymentProtocolHelper;
-import org.xcash.wallet.xmrto.XmrToError;
-import org.xcash.wallet.xmrto.XmrToException;
 
 import java.util.Map;
 
@@ -176,10 +174,13 @@ public class SendAddressWizardFragment extends SendWizardFragment {
                     tvPaymentIdIntegrated.setVisibility(View.VISIBLE);
                     llXmrTo.setVisibility(View.INVISIBLE);
                     sendListener.setMode(SendFragment.Mode.XMR);
-                } else if (isBitcoinAddress() || (resolvedPP != null)) {
+                }
+                /*else if (isBitcoinAddress() || (resolvedPP != null)) {
                     Timber.d("isBitcoinAddress");
                     setBtcMode();
-                } else {
+                }*/
+
+                else {
                     Timber.d("isStandardAddress or other");
                     llPaymentId.setVisibility(View.VISIBLE);
                     tvPaymentIdIntegrated.setVisibility(View.INVISIBLE);
@@ -268,7 +269,7 @@ public class SendAddressWizardFragment extends SendWizardFragment {
 
         return view;
     }
-
+/*
     private void setBtcMode() {
         Timber.d("setBtcMode");
         etPaymentId.getEditText().getText().clear();
@@ -277,7 +278,7 @@ public class SendAddressWizardFragment extends SendWizardFragment {
         llXmrTo.setVisibility(View.VISIBLE);
         sendListener.setMode(SendFragment.Mode.BTC);
     }
-
+*/
     private void processOpenAlias(String dnsOA) {
         if (resolvingOA) return; // already resolving - just wait
         sendListener.popBarcodeData();
@@ -346,12 +347,15 @@ public class SendAddressWizardFragment extends SendWizardFragment {
                     @Override
                     public void run() {
                         int errorMsgId = R.string.send_address_not_bip70;
+                        /*
                         if (ex instanceof XmrToException) {
+
                             XmrToError error = ((XmrToException) ex).getError();
                             if (error != null) {
                                 errorMsgId = error.getErrorMsgId();
                             }
-                        }
+                        }*/
+
                         etAddress.setError(getString(errorMsgId));
                     }
                 });
@@ -488,7 +492,7 @@ public class SendAddressWizardFragment extends SendWizardFragment {
         if (barcodeData != null) {
             Timber.d("GOT DATA");
 
-            if (barcodeData.bip70 != null) {
+            /*if (barcodeData.bip70 != null) {
                 setBtcMode();
                 if (barcodeData.security == BarcodeData.Security.BIP70) {
                     resolvedPP = barcodeData.bip70;
@@ -497,7 +501,8 @@ public class SendAddressWizardFragment extends SendWizardFragment {
                     processBip70(barcodeData.bip70);
                 }
                 etAddress.getEditText().setText(barcodeData.bip70);
-            } else if (barcodeData.address != null) {
+            } else*/
+            if (barcodeData.address != null) {
                 etAddress.getEditText().setText(barcodeData.address);
                 if (checkAddress()) {
                     if (barcodeData.security == BarcodeData.Security.OA_NO_DNSSEC)

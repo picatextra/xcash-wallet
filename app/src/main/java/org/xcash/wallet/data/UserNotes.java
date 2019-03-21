@@ -16,8 +16,6 @@
 
 package org.xcash.wallet.data;
 
-import org.xcash.wallet.xmrto.api.QueryOrderStatus;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -53,7 +51,7 @@ public class UserNotes {
         }
         txNotes = buildTxNote();
     }
-
+/*
     public void setXmrtoStatus(QueryOrderStatus xmrtoStatus) {
         if (xmrtoStatus != null) {
             xmrtoKey = xmrtoStatus.getUuid();
@@ -66,7 +64,7 @@ public class UserNotes {
         }
         txNotes = buildTxNote();
     }
-
+*/
     private String buildTxNote() {
         StringBuffer sb = new StringBuffer();
         if (xmrtoKey != null) {

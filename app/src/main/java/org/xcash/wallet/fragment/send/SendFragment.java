@@ -285,7 +285,8 @@ public class SendFragment extends Fragment
     }
 
     enum Mode {
-        XMR, BTC
+        XMR,
+        //BTC
     }
 
     Mode mode = Mode.XMR;
@@ -298,9 +299,9 @@ public class SendFragment extends Fragment
                 case XMR:
                     txData = new TxData();
                     break;
-                case BTC:
-                    txData = new TxDataBtc();
-                    break;
+                //case BTC:
+                //    txData = new TxDataBtc();
+                //    break;
                 default:
                     throw new IllegalArgumentException("Mode " + String.valueOf(aMode) + " unknown!");
             }
@@ -382,7 +383,7 @@ public class SendFragment extends Fragment
                     default:
                         throw new IllegalArgumentException("no such send position(" + position + ")");
                 }
-            } else if (mode == Mode.BTC) {
+            } /*else if (mode == Mode.BTC) {
                 switch (position) {
                     case POS_ADDRESS:
                         return SendAddressWizardFragment.newInstance(SendFragment.this);
@@ -395,7 +396,9 @@ public class SendFragment extends Fragment
                     default:
                         throw new IllegalArgumentException("no such send position(" + position + ")");
                 }
-            } else {
+            }*/
+
+            else {
                 throw new IllegalStateException("Unknown mode!");
             }
         }
