@@ -71,7 +71,7 @@
     <string name="text_generic_xmrto_error">Code: %1$d</string>
 
     <string name="text_retry">Opnieuw proberen</string>
-    <string name="text_noretry_X-Cash">Nu zitten we vast…</string>
+    <string name="text_noretry_monero">Nu zitten we vast…</string>
     <string name="text_noretry">Oeps, XCASH.TO is op dit moment niet beschikbaar.</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

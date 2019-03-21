@@ -249,7 +249,7 @@
     <string name="label_generic_xmrto_error">ERROR XCASH.TO</string>
     <string name="text_generic_xmrto_error">Código: %1$d</string>
     <string name="text_retry">Toca para reintentar</string>
-    <string name="text_noretry_X-Cash">Parece que estamos atascados!</string>
+    <string name="text_noretry_monero">Parece que estamos atascados!</string>
     <string name="text_noretry">Oh-oh, parece que XCASH.TO no está disponible ahora!</string>
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
     <string name="text_send_btc_rate">(Cambio: %1$s BTC/XCASH)</string>

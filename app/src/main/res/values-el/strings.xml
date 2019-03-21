@@ -70,7 +70,7 @@
     <string name="text_generic_xmrto_error">Κωδικός σφάλματος: %1$d</string>
 
     <string name="text_retry">Πάτησε για να προσπαθήσεις ξανά</string>
-    <string name="text_noretry_X-Cash">Τώρα έχουμε κολλήσει εδώ!</string>
+    <string name="text_noretry_monero">Τώρα έχουμε κολλήσει εδώ!</string>
     <string name="text_noretry">Ωχ,το XCASH.TO φαίνεται να μην ειναι προσωρινά διαθέσιμο!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

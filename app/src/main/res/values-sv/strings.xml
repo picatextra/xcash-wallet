@@ -64,7 +64,7 @@
     <string name="text_generic_xmrto_error">Kod: %1$d</string>
 
     <string name="text_retry">Tryck för att försöka igen</string>
-    <string name="text_noretry_X-Cash">Nu har vi kört fast!</string>
+    <string name="text_noretry_monero">Nu har vi kört fast!</string>
     <string name="text_noretry">Åh nej, XCASH.TO verkar inte vara tillgänglig just nu!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

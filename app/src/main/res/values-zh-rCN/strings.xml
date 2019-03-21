@@ -71,7 +71,7 @@
     <string name="text_generic_xmrto_error">错误代码: %1$d</string>
 
     <string name="text_retry">点选以重试</string>
-    <string name="text_noretry_X-Cash">我们卡住了!</string>
+    <string name="text_noretry_monero">我们卡住了!</string>
     <string name="text_noretry">不好, XCASH.TO 现在似乎无法提供服务!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

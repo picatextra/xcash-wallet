@@ -70,7 +70,7 @@
     <string name="text_generic_xmrto_error">Cod: %1$d</string>
 
     <string name="text_retry">Atinge pentru reîncercare</string>
-    <string name="text_noretry_X-Cash">Pff.. ne-am blocat cum!</string>
+    <string name="text_noretry_monero">Pff.. ne-am blocat cum!</string>
     <string name="text_noretry">Oh, serviciul XCASH.TO este momentan indisponibil!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

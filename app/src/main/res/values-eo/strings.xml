@@ -71,7 +71,7 @@
     <string name="text_generic_xmrto_error">kodo: %1$d</string>
 
     <string name="text_retry">Tuŝu por reprovi</string>
-    <string name="text_noretry_X-Cash">Ni blokiĝis ĉi tie!</string>
+    <string name="text_noretry_monero">Ni blokiĝis ĉi tie!</string>
     <string name="text_noretry">Uh-oh, ŝajne XCASH.TO ne disponas momente!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

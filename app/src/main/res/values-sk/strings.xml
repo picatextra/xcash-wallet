@@ -72,7 +72,7 @@
     <string name="text_generic_xmrto_error">Kód chyby: %1$d</string>
 
     <string name="text_retry">Klepni pre opakovanie</string>
-    <string name="text_noretry_X-Cash">Uviazli sme tu!</string>
+    <string name="text_noretry_monero">Uviazli sme tu!</string>
     <string name="text_noretry">Myslím, že služba XCASH.TO nie je momentálne dostupná!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

@@ -72,7 +72,7 @@
     <string name="text_generic_xmrto_error">Код: %1$d</string>
 
     <string name="text_retry">Натисніть, щоб повторити спробу</string>
-    <string name="text_noretry_X-Cash">Тепер ми застрягли тут!</string>
+    <string name="text_noretry_monero">Тепер ми застрягли тут!</string>
     <string name="text_noretry">Ой ой! Здається XCASH.TO недоступний в даний момент!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

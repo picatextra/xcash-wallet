@@ -71,7 +71,7 @@
     <string name="text_generic_xmrto_error">Kód: %1$d</string>
 
     <string name="text_retry">Koppints az újrapróbálkozáshoz</string>
-    <string name="text_noretry_X-Cash">Itt most elakadtunk!</string>
+    <string name="text_noretry_monero">Itt most elakadtunk!</string>
     <string name="text_noretry">Ajjaj! Úgy néz ki, az XCASH.TO most nem elérhető!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

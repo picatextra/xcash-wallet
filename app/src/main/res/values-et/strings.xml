@@ -71,7 +71,7 @@
     <string name="text_generic_xmrto_error">Kood: %1$d</string>
 
     <string name="text_retry">Puuduta uuesti proovimiseks</string>
-    <string name="text_noretry_X-Cash">Nüüd jõudsime küll tupikusse!</string>
+    <string name="text_noretry_monero">Nüüd jõudsime küll tupikusse!</string>
     <string name="text_noretry">Oh ei, XCASH.TO ei ole hetkel saadaval!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>

@@ -72,7 +72,7 @@
     <string name="text_generic_xmrto_error">Codice: %1$d</string>
 
     <string name="text_retry">Tocca per riprovare</string>
-    <string name="text_noretry_X-Cash">Ora siamo bloccati qui!!</string>
+    <string name="text_noretry_monero">Ora siamo bloccati qui!!</string>
     <string name="text_noretry">Oh Oh, XCASH.TO sembra non essere disponibile in questo momento!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XCASH</string>
